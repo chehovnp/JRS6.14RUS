@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<settings>
+    <profiles>
+        <profile>
+            <id>JSSProfile</id>
+            <repositories>
+                <repository>
+                  <id>central</id>
+                  <name>jaspersoft-repo</name>
+                  <url>https://jaspersoft.jfrog.io/jaspersoft/jaspersoft-repo</url>
+                </repository>
+            </repositories>
+            <properties>
+                <!-- Local Repository with the target platform for building -->
+                <targetplatform.repo>/d:/dev/targetRepoE417</targetplatform.repo>
+                <!-- JRE files location -->
+                <jre.packages.location>d:\\dev\\jre</jre.packages.location>
+            </properties>
+        </profile>
+    </profiles>
+    <activeProfiles>
+        <activeProfile>JSSProfile</activeProfile>
+    </activeProfiles>
+</settings>
